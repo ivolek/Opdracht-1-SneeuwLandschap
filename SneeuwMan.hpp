@@ -23,6 +23,7 @@ private:
 public:
 	//constructor
 	SneeuwMan( int positionX, int positionY );
+//	virtual ~SneeuwMan();
 
 	//beweeg de sneeuwman in de richting "direcion", negatief getal is links, positief is rechts
 	void move( int direction );
